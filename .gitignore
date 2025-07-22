@@ -1,0 +1,21 @@
+# Entorno virtual y archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Configuración de editor
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de salida
+*.log
+report.html
+
+# Dependencias
+*.egg-info/

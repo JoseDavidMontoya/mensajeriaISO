@@ -1,0 +1,12 @@
+<Document>
+    <CstmrCdtTrfInitn>
+        <PmtInf>
+            <Dbtr></Dbtr>
+            <Cdtr></Cdtr>
+            <Amt></Amt>
+            <Ccy></Ccy>
+            <EndToEndId></EndToEndId>
+            <ReqdExctnDt></ReqdExctnDt>
+        </PmtInf>
+    </CstmrCdtTrfInitn>
+</Document>

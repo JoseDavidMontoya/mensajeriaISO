@@ -4,6 +4,8 @@ import requests
 from config import API_URL, TOKEN, FORMATO, ISO_TIPO
 from db_mock import obtener_datos
 from message_builder import construir_mensaje
+from sender import _es_mt548
+
 
 def test_envio_mensaje_exitoso():
     datos = obtener_datos()
@@ -20,3 +22,4 @@ def test_envio_mensaje_exitoso():
 
     assert response.status_code == 200, "La API respondió con error"
     assert "data" in response.text, "La respuesta no contiene el payload esperado"
+    assert _es_mt548(response.text), "La respuesta no es un mensaje MT548"

@@ -1,0 +1,29 @@
+:16R:GENL
+:20C::SEME//{seme}
+:23G:NEWM
+:16S:GENL
+:16R:TRADDET
+:98A::SETT//{sett_date}
+:98A::TRAD//{trad_date}
+:35B:ISIN {isin}
+1I IUES N 0000
+:16S:TRADDET
+:16R:FIAC
+:36B::SETT//UNIT/{sett_units},
+:97A::SAFE//{safe_account}
+:16S:FIAC
+:16R:SETDET
+:22F::SETR//TRAD
+:22F::RTGS//YRTG
+:16R:SETPRTY
+:95R::DEAG/ECLR/{deag}
+:16S:SETPRTY
+:16R:SETPRTY
+:95P::PSET//{pset}
+:16S:SETPRTY
+:16R:SETPRTY
+:95Q::SELL//.
+:97A::SAFE//{safe_account_sell}
+:70D::REGI//{regi}
+:16S:SETPRTY
+:16S:SETDET

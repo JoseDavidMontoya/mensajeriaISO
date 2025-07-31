@@ -6,7 +6,13 @@ from message_builder import construir_mensaje
 from sender import enviar_mensaje
 
 
-datos = obtener_datos()
+if ISO_TIPO == "mt540":
+    datos = obtener_datos()
+else:
+    datos = obtener_datosantes()
+
+
+#datos = obtener_datos()
 mensaje = construir_mensaje(datos, ISO_TIPO, FORMATO)
 
 print(f"\n--- MENSAJE ISO {ISO_TIPO.upper()} ({FORMATO.upper()}) ---\n")
